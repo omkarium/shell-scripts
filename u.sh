@@ -1,0 +1,4 @@
+funct(){
+	ls
+}
+(`funct`)& PID=$!
