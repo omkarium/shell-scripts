@@ -91,6 +91,7 @@ else
 	sudo cp ./binaries/cryptsetup/cryptdisks_start /mnt/squashfs/bin
 	sudo cp ./binaries/cryptsetup/cryptdisks_stop /mnt/squashfs/bin
 	sudo cp ./binaries/cryptsetup/*.so* /mnt/squashfs/lib64
+	sudo cp ./binaries/rufendec /mnt/squashfs/bin
 
 	# Define less critical directories
 	dirs_to_remove=(
